@@ -16,13 +16,13 @@ module.exports = {
 	lintOnSave: false,
 	productionSourceMap: false,
 	runtimeCompiler: true,
-	devServer: {
-		open: false,
-		host: '0.0.0.0',
-		port: 8080,
-		https: false,
-		proxy: 'http://localhost:7001/'
-	},
+	// devServer: {
+	// 	open: false,
+	// 	host: '0.0.0.0',
+	// 	port: 8080,
+	// 	https: false,
+	// 	proxy: 'http://localhost:7001/'
+	// },
 	configureWebpack: config => {
 		let plugins = [];
 		if (process.env.NODE_ENV === 'production') {

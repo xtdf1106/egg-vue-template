@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["nested-menu2-index"],{fa7b:function(e,t,n){"use strict";n.r(t);var l=function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("div",{staticStyle:{padding:"30px"}},[n("el-alert",{attrs:{closable:!1,title:"menu 2"}})],1)},a=[],s=n("2877"),i={},u=Object(s["a"])(i,l,a,!1,null,null,null);t["default"]=u.exports}}]);

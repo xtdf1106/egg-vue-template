@@ -18,7 +18,7 @@ module.exports = appInfo => {
 		},
 
 		static: {
-			prefix: '/aaa',
+			prefix: '/',
 			dir: path.join(appInfo.baseDir, 'app/public'),
 			dynamic: true, // 如果当前访问的静态资源没有缓存，则缓存静态文件，和`preload`配合使用；
 			preload: false,
