@@ -1,10 +1,11 @@
 #!/bin/bash
 
+if [ "$NODE_ENV" != "production" ];then
+    export NODE_ENV=production
+fi
+
 echo $NODE_ENV
 
-if ($NODE_ENV != 'production'){
-    export NODE_ENV=production
-}
 npm install --production
 
 npm start
